@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  display: block;
+  margin-left: 1%;
+}
+
+.RepoList {
+  list-style: none;
+  width: 50%;
+  padding: 0px;
+}
+
+.RepoLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.ErrorText {
+  color: red;
+}
+
+.RepoColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.RepoTable {
+  width: 49%;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FavoriteRepos {
+  width: 49%;
+}
+
+.ReadmeText {
+  max-width: 100vh;
+}
+
+.CopyText {
+  width: 56.69px;
+}
